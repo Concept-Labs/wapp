@@ -1,0 +1,25 @@
+{
+    "name": "concept-labs/wapp",
+    "description": "(C)oncept-Labs Web Application",
+    "keywords": ["php","wapp", "web application", "web router", "web action"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Galitsky",
+            "email": "concept.galitsky@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2|^7.4|^8.0|^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Concept\\Wapp\\": "src/"
+        }
+    },
+    "require-dev": {
+    },
+    "autoload-dev": {
+    }
+
+}
